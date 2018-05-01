@@ -1,11 +1,9 @@
+import traceback
+
 import numpy as np
 
 from udacidrone import Drone
 import time
-import time
-
-import numpy as np
-from udacidrone import Drone
 
 visdom_available = True
 try:
